@@ -1,0 +1,371 @@
+html, body {
+    height: 100%;
+    width: 100%; 
+   
+  }
+  
+  /* Default Styles */
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+  
+  }
+  /*Custom Styles*/
+  
+  header {
+   
+   margin: auto;
+   outline: thin;
+   background-color: #143945;
+  }
+  
+  .top-area{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+  }
+  
+  .logo{
+    color: #ffff;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .logo p{
+  display: block;
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 25px;
+  font-weight: lighter;
+  color: #a98743;
+  }
+  
+  .nav-lists{
+    display: flex;  
+  }
+  
+  .nav-list{
+    display: flex;
+    justify-content:space-between ;
+    align-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  
+  .nav-list a{
+   color: #fff;
+    font-size: 17px;
+    padding: 7px 13px;
+    margin-left: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  
+  
+  a.active,a:hover{
+   background: #a98743;
+    transition: .5s;
+  }
+  
+  /*Hero Area Styling*/
+  
+  
+  .hero-area {
+    width: 100%;
+    background-color: rgb(132, 149, 150);
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+     
+  
+  .hero-image{
+    text-align: center;
+   
+  }
+  
+  #img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 0 auto;
+    border: 1px solid #a98743;
+    filter: grayscale(1);
+    transition: filter 0.2s ease-in; 
+  }
+  
+  
+  
+  #img:hover {
+    filter: grayscale(0);
+  }
+  
+  
+  .hero-title{
+  margin: 0 auto;
+  text-align: center;
+  font-size:20px;
+  padding-top: 30px;
+  color:black;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding-bottom: 30px;
+  }
+  
+  .hero-title h3{
+   color: #091a20 ;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 15px;
+      margin-top: 30px;
+      letter-spacing: 1.5px;
+    
+  }
+  
+  
+  
+  
+  
+    .hero-area-bottom{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 50vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+     
+    }
+    .wrapper{
+      max-width: 1090px;
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .wrapper .card{
+      background:#f1f1f1 ;
+      width: calc(33% - 20px);
+      padding: 70px 70px;
+      position: relative;
+    }
+    
+    .card {
+      justify-content: center;
+      text-align: center;
+      border-radius: 20px;
+      height: 300px;
+    }
+    
+    .card .ribbon{
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      overflow: hidden;
+    }
+    .card .ribbon::before,
+    .card .ribbon::after{
+      position: absolute;
+      content: "";
+      z-index: -1;
+      display: block;
+      border: 7px solid #143945;
+      border-top-color: transparent;
+      border-left-color: transparent;
+    }
+    .card .ribbon::before{
+      top: 0px;
+      right: 15px;
+    }
+    .card .ribbon::after{
+      bottom: 15px;
+      left: 0px;
+    }
+    .card .ribbon span{
+      position: absolute;
+      top: 30px;
+      right: 0;
+      transform: rotate(-45deg);
+      width: 200px;
+      background:#143945 ;
+      padding: 10px 0;
+      color: #fff;
+      text-align: center;
+      font-size: 17px;
+      text-transform: uppercase;  
+    }
+  
+    .fa-ul li
+    {
+      text-align: left;
+      list-style: none;
+    }
+  
+    /*Contact button in home page Styles*/
+  
+  
+    .cta{
+      text-align: center;
+     padding-bottom:5%;
+     padding-top:5%;
+     background: rgb(132, 149, 150);
+     
+    }
+  
+  /*contact Page Styles*/
+    .contact-btn{ 
+    color: white;
+    background:#091a20 ;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    padding: 20px 20px;
+    text-decoration: none;
+    }
+   
+   
+   
+   .contact-box
+   {
+    width: 100%;
+    padding-top: 100px;
+    background-color: cadetblue;
+    color: #444444;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  
+  .contact-box h1{
+      color: #091a20 ;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 30px;
+      margin-top: 30px;
+      letter-spacing: 1.5px;
+  }
+  
+  .contact-form {
+    width: 40%;
+    height: 400px;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  
+  .form input, 
+  .form textarea{
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 10px;
+    background: white;
+    font-weight: 100;
+    outline: none;
+    border: 1px solid #091a20;
+  }
+  
+  .form textarea {
+    font-family: inherit;
+    font-size: inherit;
+    height: 200px;
+  }
+  
+  .form-button {
+    width: 50%;
+    color: white;
+    background:#091a20 ;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 15px;
+   
+  }
+  
+  .form-button:hover{
+    background: #a98743; 
+    transition: .5s;
+  }
+  
+  .form-button span{
+    padding: 20px;
+    font-size: 15px 25px;
+  }
+  
+  /*Project Styling*/
+  .project-link
+  {
+    padding: 50px;
+    text-align: center;
+    color:#091a20;
+    background-color:#a98743;
+  }
+  
+  .project-link a{
+    
+  color: #091a20;
+    font-size: 17px;
+    padding: 7px 13px;
+    margin-left: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  /*Services Styling*/
+  .services-box h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+  .services-card{
+     width: 40%;
+    text-align: center;
+    margin: 50px;
+    text-transform: capitalize;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 20px;
+    height: 200px; 
+    padding: 50px 50px;
+    box-shadow: 5px 10px #143945;
+  }
+  
+  footer {
+   display:flex;
+    justify-content: space-evenly;
+  text-align: center;
+  color: #f1f1f1;
+  margin: 0;
+  padding: 5px;
+  font-size: 18px;
+  background-color: #091a20;
+  
+  
+  }
