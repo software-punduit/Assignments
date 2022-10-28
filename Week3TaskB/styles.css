@@ -1,0 +1,294 @@
+
+  html
+  {
+    height: 100%;
+  width: 100%; 
+ 
+}
+
+/* Default Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+
+}
+/*Custom Styles*/
+
+header {
+ 
+ margin: auto;
+ outline: thin;
+ background-color: #143945;
+}
+
+.top-area{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  
+}
+
+
+
+
+.nav-lists{
+  display: flex;  
+}
+
+.nav-list{
+  display: flex;
+  justify-content:space-between ;
+  align-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+
+.nav-list a{
+ color: #fff;
+  font-size: 17px;
+  padding: 7px 13px;
+  margin-left: 3px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+
+a.active,a:hover{
+ background: #a98743;
+  transition: .5s;
+}
+
+
+
+
+ 
+
+  
+ 
+
+
+
+
+.form-button:hover{
+  background: #a98743; 
+  transition: .5s;
+}
+
+.form-button span{
+  padding: 20px;
+  font-size: 15px 25px;
+}
+
+/*login Styling*/
+.login-box{
+  width: 100%;
+  padding-top: 64px;
+  background-color: cadetblue;
+  color: #444444;
+  text-align: center;
+}
+
+.login-box h1{
+  color: #091a20 ;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 30px;
+  letter-spacing: 1.5px;
+}
+
+.login-form{
+  width: 40%;
+  height: 400px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+label{
+  color:#091a20 ;
+  
+  display: block;
+  text-align: left;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+label:after { content: ": " }
+  
+
+.login-details input{
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 10px;
+  background: white;
+  font-weight: 100;
+
+}
+.login-button{ 
+  width: 50%;
+  color: white;
+  background:#091a20 ;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 15px; 
+  outline: none;
+  
+ 
+}
+
+.login-button:hover{
+  background: #a98743; 
+  transition: .5s;
+}
+.login-button span{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  
+}
+
+
+/*Registration Styling*/
+ .reg-form-area {
+  width: 100%;
+  padding-top: 64px;
+  background-color: cadetblue;
+  color: #444444;
+  text-align: center;
+}
+.reg-form-area h1{
+ color: #091a20 ;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+}
+
+
+
+select {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 15px;
+  border-radius: 30px;
+  background: white;
+  border: 1px solid #091a20;
+  color: #444444;
+}
+
+ 
+
+
+.reg-details {
+  width: 40%;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.reg-details input{
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 30px;
+  background: white;
+
+}
+
+.reg-button span{
+  padding: 20px;
+  font-size: 15px 25px;
+}
+.reg-button{
+  width: 30%;
+  color: white;
+  background:#091a20 ;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 25px;
+  margin-bottom: 16px;
+  padding: 15px;
+ 
+}
+.reg-button:hover{
+  background: #a98743; 
+  transition: .5s;
+}
+
+/*success page styles*/
+
+container {
+text-align: center;
+padding: 40px 0;
+background: #EBF0F5;
+}
+.card{
+  border-radius:200px; height:200px; width:200px; background: #F8FAF5; 
+  margin:0 auto;
+}
+
+.h1-card {
+ color: #88B04B;
+font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+font-weight: 900;
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+.p-card {
+color: #404F5E;
+font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+font-size:20px;
+ margin: 0;
+       
+}
+     
+i {
+color: #9ABC66;
+font-size: 100px;
+line-height: 200px;
+margin-left:-15px;
+}
+.card {
+ background: white;
+padding: 60px;
+border-radius: 4px;
+box-shadow: 0 2px 3px #C8D0D8;
+display: inline-block;
+margin: 0 auto;
+      }
+
+
+footer {
+text-align: center;
+color: #f1f1f1;
+margin: 0;
+padding: 5px;
+font-size: 18px;
+background-color: #091a20;
+
+
+}
